@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSubmit()">
+    <h2>Register a new article</h2>
+    <div>
+        <label for="">Article's name</label>    
+        <input type="text" name="title" id="" [(ngModel)]="title">  
+    </div>
+    
+    <div>
+        <label for="">Rates</label>
+        <input type="text" name="price" id="" [(ngModel)]="price">
+    </div>
+    
+    <div>
+        <label for="">quantity</label>
+        <input type="text" name="quantity" id="" [(ngModel)]="quantity">
+    </div>
+    
+    <input type="submit" value="Add">
+</form>
+
+
